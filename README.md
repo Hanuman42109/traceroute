@@ -18,12 +18,12 @@ The Python traceroute program determines the route taken by packets across an IP
 
 ## Usage
 ```bash
-sudo python3 traceroute.py <destination_host>
+sudo python3 traceroute.py
 ```
 
 ## Example
 ```bash
-sudo python3 traceroute.py google.com
+sudo python3 traceroute.py
 ```
 
 ## Output
