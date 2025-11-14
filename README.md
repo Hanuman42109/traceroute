@@ -1,5 +1,4 @@
 # Python Traceroute Lab
-
 This repository contains a Python implementation of a **traceroute** tool for network path discovery.
 
 ## Description
@@ -15,11 +14,6 @@ The Python traceroute program determines the route taken by packets across an IP
 - Python 3.x
 - Administrator privileges (required for raw socket operations on most OS)
 - `socket`, `sys`, and `time` Python standard libraries
-
-## Usage
-```bash
-sudo python3 traceroute.py
-```
 
 ## Example
 ```bash
