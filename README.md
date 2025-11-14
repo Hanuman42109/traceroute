@@ -19,10 +19,12 @@ The Python traceroute program determines the route taken by packets across an IP
 ## Usage
 ```bash
 sudo python3 traceroute.py <destination_host>
+```
 
 ## Example
 ```bash
 sudo python3 traceroute.py google.com
+```
 
 ## Output
 - The program prints each hop with RTT in milliseconds. Example:
@@ -33,7 +35,7 @@ Traceroute to: google.com
   2    rtt=2 ms    192.168.0.1
   3    rtt=10 ms   142.250.72.238
   4    rtt=15 ms   108.170.250.193
-  ...
+```
 
 ## Notes
 - Some hops may not respond (*) if ICMP packets are blocked by firewalls.
